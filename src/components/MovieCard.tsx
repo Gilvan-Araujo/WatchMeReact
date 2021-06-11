@@ -1,6 +1,6 @@
-import { Star, Clock } from 'react-feather';
+import '../styles/movie-card.module.scss';
 
-import '../styles/movie-card.scss';
+import { Clock, Star } from 'react-feather';
 
 interface MovieCardProps {
   title: string;
